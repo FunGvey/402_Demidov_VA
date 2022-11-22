@@ -1,0 +1,23 @@
+{
+    "name": "fungvey/guess-number",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Demidov Vladimir",
+            "email": "fungvey@gmail.com"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    },
+    "bin": [
+        "bin/guess-number.php"
+    ],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    }
+}
