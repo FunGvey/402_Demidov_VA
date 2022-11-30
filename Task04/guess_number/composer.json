@@ -1,0 +1,24 @@
+{
+    "name": "fungvey/guess_number",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fungvey"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13"
+    },
+    "bin": [
+        "bin/guess-number.php"
+    ],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+	    "src/Model.php",
+            "src/DB.php"
+        ]
+    }
+}
