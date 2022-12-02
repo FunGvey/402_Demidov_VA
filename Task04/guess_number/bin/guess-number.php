@@ -9,5 +9,8 @@ if (file_exists($autoloadGit)) {
     require_once($autoloadPackagist);
 }
     use function fungvey\guess_number\Controller\startGame;
+<<<<<<< HEAD
 
+=======
+>>>>>>> student/Task04
     startGame();

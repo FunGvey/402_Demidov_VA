@@ -2,7 +2,10 @@
 
 namespace fungvey\guess_number\Model;
 
+<<<<<<< HEAD
 use function cli\prompt;
+=======
+>>>>>>> student/Task04
 use function fungvey\guess_number\View\saySalute;
 use function fungvey\guess_number\View\endGame;
 use function fungvey\guess_number\View\MenuGame;
@@ -113,6 +116,10 @@ function commandHandler($getCommand)
             exit;
         }
 
+<<<<<<< HEAD
         $getCommand = prompt("Enter the key value: ");
+=======
+        $getCommand = \cli\prompt("Enter the key value");
+>>>>>>> student/Task04
     }
 }

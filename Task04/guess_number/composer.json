@@ -3,13 +3,21 @@
     "type": "project",
     "authors": [
         {
+<<<<<<< HEAD
             "name": "FunGvey"
+=======
+            "name": "Fungvey"
+>>>>>>> student/Task04
         }
     ],
     "description": "",
     "require": {
+<<<<<<< HEAD
         "wp-cli/php-cli-tools": "^0.11.13",
         "gabordemooij/redbean": "dev-master"
+=======
+        "wp-cli/php-cli-tools": "^0.11.13"
+>>>>>>> student/Task04
     },
     "bin": [
         "bin/guess-number.php"
@@ -18,8 +26,16 @@
         "files": [
             "src/Controller.php",
             "src/View.php",
+<<<<<<< HEAD
 			"src/Model.php",
             "src/DB.php"
         ]
     }
 }
+=======
+	    "src/Model.php",
+            "src/DB.php"
+        ]
+    }
+}
+>>>>>>> student/Task04
