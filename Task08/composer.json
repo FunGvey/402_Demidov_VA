@@ -1,0 +1,22 @@
+{
+    "name": "fungvey/guess_number",
+    "type": "project",
+    "authors": [
+        {
+            "name": "fungvey"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13",
+        "gabordemooij/redbean": "dev-master",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5",
+        "slim/http": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "fungvey\\guess_number\\": "src/"
+        }
+    }
+}
